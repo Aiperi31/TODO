@@ -1,0 +1,74 @@
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.input{
+    width: 300px;
+    height: 30px;
+    border:2px solid rgb(139, 139, 213);
+    border-radius: 20px;
+    margin-top: 100px;
+    background: rgb(212, 210, 210);
+    text-align: center;
+    
+    
+}
+.add{
+    
+    background:rgb(139, 139, 213) ;
+    border-radius: 20px;
+    border: none;
+    padding: 7px 137px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+li{
+    width: 100%;
+    list-style: none;
+    padding: 5px 2px;
+    border-radius: 5px;
+    margin: 5px 5px;
+    background: rgb(212, 210, 210);
+    
+}
+ul{
+    padding: 10px 10px;
+    font-family: sans-serif;
+    
+
+}
+li span{
+    width: 100%;
+    font-size: 15px;
+    padding: 5px 5px; 
+}
+
+.delBtn{
+    color: white;
+    border: none;
+    margin: 0 3px;
+    padding: 10px;
+    background: red;
+    
+}
+.editBtn{
+    color: white;
+    border: none;
+    margin: 0 3px;
+    padding: 10px ;
+    background: rgb(139, 139, 213);
+   
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
